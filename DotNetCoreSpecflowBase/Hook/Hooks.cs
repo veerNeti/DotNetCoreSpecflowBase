@@ -30,9 +30,6 @@ namespace DotNetCoreSpecflowBase.Hook
         private IObjectContainer _objectContainer;
         private static readonly string PathReport = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\net5.0\\", "") + "ExtentReports\\";
 
-        public string _userIdString;
-
-
         public Hooks(IObjectContainer objectContainer)
         {
             _objectContainer = objectContainer;

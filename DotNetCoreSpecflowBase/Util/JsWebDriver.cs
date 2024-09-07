@@ -182,7 +182,7 @@ namespace DotNetCoreSpecflowBase.Test.Util
         }
 
 
-        /*public void WaitForLoad (int timeoutSec)
+        public void WaitForLoad (int timeoutSec)
         {
             _driver.Manage().Timeouts().AsynchronousJavaScript = TimeSpan.FromSeconds(timeoutSec);
             NgDriver.IgnoreSynchronization = true;
@@ -212,7 +212,7 @@ namespace DotNetCoreSpecflowBase.Test.Util
             StoreTheLoadingTime();
             NgDriver.IgnoreSynchronization = false;
         }
-*/
+
 
     }
 }
